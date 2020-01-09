@@ -36,10 +36,6 @@ class APIError(HTTPError):
         return 'Error: requesting {} on {} resulted in the response {}'.format(repr(self.action), repr(self.url), repr(self.code))
 
 
-class AddressError(Exception):
-    """A generic address error"""
-
-
 BASE_URL = 'https://wilsoncreek.sonar.software/api/v1'
 
 SONAR_USERNAME = input('Username: ')
