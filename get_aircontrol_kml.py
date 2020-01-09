@@ -5,7 +5,6 @@ Generates a KML of all active inventoried devices.
 from getpass import getpass
 
 from re import match
-
 from requests import get, HTTPError
 from requests.auth import HTTPBasicAuth
 
